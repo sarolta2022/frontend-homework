@@ -2,10 +2,10 @@ import React from "react";
 
 const Form = (props) => {
   return (
-    <form type="submit">
-      <div>{props.FormContent}</div>
+    <form type="submit" onSubmit={props.onSubmit}>
+      <div>{props.children}</div>
 
-      <button>{props.button}</button>
+      <button>{props.buttonText}</button>
     </form>
   );
 };
