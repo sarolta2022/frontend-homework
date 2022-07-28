@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import "./App.css";
 import Card from "./components/Card";
@@ -12,19 +12,6 @@ function App() {
     e.preventDefault();
     setForm(!form);
   };
-
-  const username = "sarolta2022";
-  const apiKey = "<your api key>";
-  const promise = fetch("https://size-calculator-api.sspinc.io/brands", {
-    mode: "cors",
-    credentials: "include",
-    method: "GET",
-    headers: {
-      Authorization: "Basic " + btoa(`${username}:${apiKey}`),
-    },
-  });
-
-  promise.then((response) => response.json()).then((data) => console.log(data));
 
   return (
     <div className="App">
