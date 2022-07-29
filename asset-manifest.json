@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/frontend-homework/static/css/main.6b3d376f.css",
+    "main.js": "/frontend-homework/static/js/main.16abbc61.js",
+    "static/js/787.28cb0dcd.chunk.js": "/frontend-homework/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Inter-Regular.otf": "/frontend-homework/static/media/Inter-Regular.a416f4674fad5f019461.otf",
+    "static/media/manrope-regular.otf": "/frontend-homework/static/media/manrope-regular.0fb14d91f2c0471c9fa0.otf",
+    "static/media/logo.svg": "/frontend-homework/static/media/logo.c6f2a06da45ec390a67c07fe46743526.svg",
+    "index.html": "/frontend-homework/index.html",
+    "main.6b3d376f.css.map": "/frontend-homework/static/css/main.6b3d376f.css.map",
+    "main.16abbc61.js.map": "/frontend-homework/static/js/main.16abbc61.js.map",
+    "787.28cb0dcd.chunk.js.map": "/frontend-homework/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b3d376f.css",
+    "static/js/main.16abbc61.js"
+  ]
+}
