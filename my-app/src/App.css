@@ -101,6 +101,18 @@ select:nth-child(2) {
   margin-bottom: 8px;
 }
 
+select:focus {
+  outline: none;
+}
+
+.select-selected.select-arrow-active:after {
+  width: 10.97px;
+  height: 10.97px;
+
+  background: #b4c6c1;
+  transform: rotate(179.72deg);
+}
+
 .inputAndSpan {
   margin: 0 auto;
   align-items: center;
