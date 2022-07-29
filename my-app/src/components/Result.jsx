@@ -2,8 +2,9 @@ import React from "react";
 
 const Result = (props) => {
   return (
-    <div>
-      <h4>Your size is ...{props.result}</h4>
+    <div className="result">
+      <span className="resultText">Your size is{props.result}</span>
+      <h1>2 or S</h1>
     </div>
   );
 };

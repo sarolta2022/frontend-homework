@@ -6,7 +6,7 @@ const Card = (props) => {
     <div className="card">
       <div className="header">
         <img src={Logo} alt="logo" />
-        <h1>Size calculator</h1>
+        <p>Size calculator</p>
       </div>
       {props.children}
     </div>

@@ -66,7 +66,7 @@ const Selection = (props) => {
     <div>
       <select onSelect={handleSelect}>
         <option value="default" hidden>
-          Please select a brand
+          Select a brand
         </option>
         {brandData.map((item, index, array) => (
           <option key={index} value={item}>
@@ -76,11 +76,11 @@ const Selection = (props) => {
       </select>
       <select>
         <option value="default" hidden>
-          Please select a category
+          Select a category
         </option>
         <option value={categoryData}>{categoryData}</option>
       </select>
-      <div>
+      <div className="inputAndSpan">
         <span>My size is</span>
         <input>{props.sizeInput}</input>
         <span>inches</span>
